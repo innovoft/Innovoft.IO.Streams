@@ -1,9 +1,23 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>disable</ImplicitUsings>
     <Nullable>enable</Nullable>
-  </PropertyGroup>
+		<Version>1.0.0</Version>
+		<PackageId>Innovoft.IO.Streams</PackageId>
+		<Title>Innovoft.IO.Streams</Title>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<RepositoryUrl>https://github.com/innovoft/Innovoft.IO.Streams</RepositoryUrl>
+		<RepositoryType>git</RepositoryType>
+		<PackageTags>stream</PackageTags>
+		<Authors>Steven Retz</Authors>
+		<Company>Innovoft</Company>
+		<Copyright>Copyright © Innovoft 2021</Copyright>
+		<Description>Stream helper classes</Description>
+		<PackageProjectUrl>https://github.com/innovoft/Innovoft.IO.Streams</PackageProjectUrl>
+		<PublishRepositoryUrl>true</PublishRepositoryUrl>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+	</PropertyGroup>
 
 </Project>
