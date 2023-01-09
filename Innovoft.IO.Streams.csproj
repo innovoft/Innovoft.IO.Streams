@@ -4,7 +4,7 @@
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>disable</ImplicitUsings>
     <Nullable>enable</Nullable>
-		<Version>1.1.0</Version>
+		<Version>1.1.1</Version>
 		<PackageId>Innovoft.IO.Streams</PackageId>
 		<Title>Innovoft.IO.Streams</Title>
 		<PackageLicenseExpression>MIT</PackageLicenseExpression>
