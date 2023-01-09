@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Text;
 
-namespace Innovoft.IO.Streams
+namespace Innovoft.IO
 {
 	public sealed class CopyStream : Stream
 	{
