@@ -176,6 +176,11 @@ namespace Innovoft.IO
 			await writer.WriteAsync(buffer, offset, read, cancellationToken);
 			return read;
 		}
+
+		public override Task WriteAsync(byte[] buffer, int offset, int count, CancellationToken cancellationToken)
+		{
+			throw new NotImplementedException();
+		}
 		#endregion //Methods
 	}
 }
