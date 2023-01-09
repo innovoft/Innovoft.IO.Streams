@@ -18,6 +18,7 @@
 		<PackageProjectUrl>https://github.com/innovoft/Innovoft.IO.Streams</PackageProjectUrl>
 		<PublishRepositoryUrl>true</PublishRepositoryUrl>
 		<PackageReadmeFile>README.md</PackageReadmeFile>
+		<RootNamespace>Innovoft.IO</RootNamespace>
 	</PropertyGroup>
 
 	<Target Name="SetSourceRevisionId" BeforeTargets="InitializeSourceControlInformation" Condition="$(SourceRevisionId) == ''">
