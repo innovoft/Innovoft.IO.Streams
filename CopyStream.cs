@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Text;
+using System.Threading;
+using System.Threading.Tasks;
 
 namespace Innovoft.IO
 {
@@ -166,6 +168,13 @@ namespace Innovoft.IO
 		public override void Write(byte[] buffer, int offset, int count)
 		{
 			throw new NotImplementedException();
+		}
+
+		public override async Task<int> ReadAsync(byte[] buffer, int offset, int count, CancellationToken cancellationToken)
+		{
+			var read = await reader.ReadAsync(buffer, offset, count, cancellationToken);
+			await writer.WriteAsync(buffer, offset, read, cancellationToken);
+			return read;
 		}
 		#endregion //Methods
 	}
